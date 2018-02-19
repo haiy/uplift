@@ -15,6 +15,7 @@ git clone https://github.com/psarka/uplift
 cd uplift
 python3.6 -m 'venv' venv
 source venv/bin/activate
+pip install cython
 pip install -e .
 ```
 
